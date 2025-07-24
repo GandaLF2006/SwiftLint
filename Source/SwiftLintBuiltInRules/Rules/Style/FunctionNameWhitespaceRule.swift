@@ -7,7 +7,7 @@ struct FunctionNameWhitespaceRule: Rule {
     static let description = RuleDescription(
         identifier: "function_name_whitespace",
         name: "Function Name Whitespace",
-        description: "Function declaration must have exactly one space before the name and no space after it",
+        description: "Function declaration should have exactly one space before the name and no space after it",
         kind: .style,
         nonTriggeringExamples: [
             Example("func abc(lhs: Int, rhs: Int) -> Int {}"),
