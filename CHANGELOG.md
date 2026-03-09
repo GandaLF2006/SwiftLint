@@ -40,6 +40,10 @@
   [theamodhshetty](https://github.com/theamodhshetty)
   [#5741](https://github.com/realm/SwiftLint/issues/5741)
 
+* Improve the opt-in `pattern_matching_keywords` rule by extending support
+  beyond `switch case` and refining nested pattern handling.  
+  [GandaLF2006](https://github.com/GandaLF2006)
+
 ### Bug Fixes
 
 * Add an `ignore_attributes` option to `implicit_optional_initialization` so
